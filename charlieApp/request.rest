@@ -1,0 +1,25 @@
+POST http://192.168.8.162:8000/api/register
+Accept: "application/json"
+Content-Type: "application/json"
+
+{
+  "name": "bebop",
+  "email": "charlie@gmail.com",
+  "password": "@Itlog123"
+}
+
+###
+
+POST http://192.168.8.162:8000/api/login
+Content-Type: "application/json"
+
+{
+  "email": "charlie@gmail.com",
+  "password": "@Itlog123"
+}
+
+###
+
+POST http://192.168.8.162:8000/api/logout
+Content-Type: "application/json"
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAyMDQwNjQwLCJleHAiOjE3MDIwNDQyNDAsIm5iZiI6MTcwMjA0MDY0MCwianRpIjoiOURzYWFDRFN5RGlSejd6UCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.CCVwXvjPhgblNL1qrCf8RCdGgj_fjFUi-Sz4nHV3xUI
